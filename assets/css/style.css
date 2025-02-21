@@ -161,7 +161,7 @@ html, body {
 }
 
 /* HEADER
-================================================== */
+==================================================   <img src="puppy.jpg" width="640" height="360" alt="Puppy with balloons">*/
 .site-header {
     position: fixed;
     top: 0;
@@ -254,7 +254,8 @@ html, body {
 } 
 
 .hero img {
-    height: 600px;
+    height: 640;
+  width="640";
 }
 
 /* SITEMAIN
