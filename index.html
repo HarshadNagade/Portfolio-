@@ -41,6 +41,110 @@
 
 </head>
 
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Montserrat:wght@600&display=swap");
+
+/* Gradient Text Heading */
+.gradient-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(45deg, #2c3e50, #bdc3c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 75vh; /* Moves text lower */
+    line-height: 1.3;
+    letter-spacing: 2px;
+  
+}
+/* Wrapper Background */
+.wrapper {
+    background: transparent;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+/* SVG Text Animation */
+/* Import Google Fonts */
+
+svg {
+    font-family: "Playfair Display", serif; /* Elegant and premium */
+    width: 100%;
+    height: 100%;
+}
+
+svg text {
+    animation: stroke 2s infinite alternate;
+    stroke-width: 2;
+    stroke: #365FA0;
+    font-size: 80px; /* Slightly bigger for impact */
+    letter-spacing: 2px; /* Better readability */
+}
+
+/* Alternate Font Choices */
+.alternate-font-1 {
+    font-family: "DM Sans", sans-serif;
+}
+ 
+
+/* Stroke Animation */
+@keyframes stroke {
+    0% {
+        fill: rgba(72,138,204,0); 
+        stroke: rgba(54,95,160,1);
+        stroke-dashoffset: 25%; 
+        stroke-dasharray: 0 50%; 
+        stroke-width: 2;
+    }
+    70% {
+        fill: rgba(72,138,204,0); 
+        stroke: rgba(54,95,160,1);
+    }
+    80% {
+        fill: rgba(72,138,204,0); 
+        stroke: rgba(54,95,160,1); 
+        stroke-width: 3;
+    }
+    100% {
+        fill: rgba(72,138,204,1); 
+        stroke: rgba(54,95,160,0);
+        stroke-dashoffset: -25%; 
+        stroke-dasharray: 50% 0; 
+        stroke-width: 0;
+    }
+}
+.job-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222;
+    background: linear-gradient(45deg, #D7D7D7, #F5F5F5); /* Light Grey Metallic */
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    margin-top: 5%;
+    margin-left: 15%;   
+    letter-spacing: 1px;
+    line-height: 1.5;
+    transition: transform 1s ease-in-out, box-shadow 1.5s ease-in-out;
+}
+
+.job-title:hover {
+    transform: scale(1.03); /* Slightly Enlarged */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.18);
+}
+
+
+
+
+/* Optional: Add text shadow for elegance */
+
+</style>
 <body>
     
     <header id="masthead" class="site-header" data-anchor-target=".hero"
@@ -87,21 +191,23 @@
                 <div class="col-md-6">
                     
                    
-                    <div class="example">
-                        <h1 style="   color: green;
-                        font-family: oswald;
-                        font-size: 50px;
-                        font-weight: 50;
-                        text-transform: uppercase;
-                        margin-top: 50%;
-                        line-height: 1;" > Namaste! My name is</h1>
-                   </div>
-                   
-               
-                    <!--starts  animation-->
-                    <div class="loader"></div>
+             <!--starts  animation-->
+             <div class="example" style="margin-top: 50%;margin-left: 70px;">
+                        
+                <h1 class="gradient-text">Namaste! My name is</h1>
+            </div>
+        
+            <!-- Animated SVG Text -->
+            <div class="wrapper">
+                <svg>
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                        HARSHAD
+                    </text>
+                </svg>
+            </div>
+        
 
-              <!-- end animation-->
+      <!-- end animation-->
                    
                     <div class="page-scroll">
 
@@ -164,24 +270,48 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Php</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="80"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+
                         <div class="skill">
                             <h4>Java</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                    </div>
-                    <div class="col-md-4">
+                        </div><!-- /.skill -->  
                         <div class="skill">
                             <h4>Javascript</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="60"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                            
+                            <div class="skill">
+                                <h4>C++(DSA)</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
+                                </div><!-- /.progress -->
+                            </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Python</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Html/css</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="90"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+
+                    </div>
+                   
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Php</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="80"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                         <div class="skill">
@@ -190,22 +320,10 @@
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
+                            
                     </div>
-                   
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Html/css</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>Python</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                    </div>
+
+                    
                 </div>
             </div>
         </section><!-- /.secton-skills -->
@@ -277,22 +395,24 @@
 
 
                     
+                    
                     <div class="col-md-6 col-xs-6">
                         <div class="portfolio-item">
                             <img src="assets/img/e-garage.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>E-Garage</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                               <!--- <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>--->
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
+
                     <div class="col-md-6 col-xs-6">
                         <div class="portfolio-item">
                             <img src="assets/img/netspeed.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Network Speed Testing</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
@@ -303,8 +423,8 @@
                             <img src="assets/img/onlinenotes.webp" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Online Notes Sharing </h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                               <!--- <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>--->
+                               <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
@@ -313,8 +433,8 @@
                             <img src="assets/img/busbooking.avif" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Bus Tickets Booking</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                               <!--- <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>--->
+                               <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
