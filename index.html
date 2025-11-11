@@ -22,133 +22,31 @@
 
     <!-- Favicon
     ================================================== -->
-    <link rel="icon" type="image/png" sizes="25x25" href="assets/img/hlogo.jpg">
+    <link rel="icon" type="image/png" sizes="25x25" href="Assests/p2.jpg">
 
     <!-- Stylesheets
     ================================================== -->
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <!--link href="assets/css/style.css" rel="stylesheet"-->
+    <!--link href="assets/css/responsive.css" rel="stylesheet"--->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@600&family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet" />
+
 
 </head>
-
 <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Montserrat:wght@600&display=swap");
-
-/* Gradient Text Heading */
-.gradient-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 55px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    background: linear-gradient(45deg, #2c3e50, #bdc3c7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 75vh; /* Moves text lower */
-    line-height: 1.3;
-    letter-spacing: 2px;
-  
-}
-/* Wrapper Background */
-/* Wrapper Background */
-.wrapper {
-    background: transparent;
-    margin-top: 30px;
-    margin-left: 100px;
-}
-
-/* SVG Text Animation */
-/* Import Google Fonts */
-
-svg {
-    font-family: "Playfair Display", serif; /* Elegant and premium */
-    width: 100%;
-    height: 100%;
-}
-
-svg text {
-    animation: stroke 2s infinite alternate;
-    stroke-width: 2;
-    stroke: #365FA0;
-    font-size: 80px; /* Slightly bigger for impact */
-    letter-spacing: 2px; /* Better readability */
-}
-
-/* Alternate Font Choices */
-.alternate-font-1 {
-    font-family: "DM Sans", sans-serif;
-}
- 
-
-/* Stroke Animation */
-@keyframes stroke {
-    0% {
-        fill: rgba(72,138,204,0); 
-        stroke: rgba(54,95,160,1);
-        stroke-dashoffset: 25%; 
-        stroke-dasharray: 0 50%; 
-        stroke-width: 2;
-    }
-    70% {
-        fill: rgba(72,138,204,0); 
-        stroke: rgba(54,95,160,1);
-    }
-    80% {
-        fill: rgba(72,138,204,0); 
-        stroke: rgba(54,95,160,1); 
-        stroke-width: 3;
-    }
-    100% {
-        fill: rgba(72,138,204,1); 
-        stroke: rgba(54,95,160,0);
-        stroke-dashoffset: -25%; 
-        stroke-dasharray: 50% 0; 
-        stroke-width: 0;
-    }
-}
-.job-title {
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    text-transform: uppercase;
-    color: #222;
-    background: linear-gradient(45deg, #D7D7D7, #F5F5F5); /* Light Grey Metallic */
-    padding: 15px 20px;
-    display: inline-block;
-    border-radius: 8px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
-    margin-top: 5%;
-    margin-left: 15%;   
-    letter-spacing: 1px;
-    line-height: 1.5;
-    transition: transform 1s ease-in-out, box-shadow 1.5s ease-in-out;
-}
-
-.job-title:hover {
-    transform: scale(1.03); /* Slightly Enlarged */
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.18);
-}
-
-
-
-
-/* Optional: Add text shadow for elegance */
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Montserrat:wght@600&display=swap");
 
 </style>
-<body>
-    
-    <header id="masthead" class="site-header" data-anchor-target=".hero"
+ <header id="masthead" class="site-header" data-anchor-target=".hero"
      data-top="background: rgba(255,255,255,0); padding: 30px 0;
       box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);"
      data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
@@ -162,7 +60,7 @@ svg text {
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a href="#hero" class="site-logo"><img src="assets/img/hlogo.jpg" alt="logo" style="height: 100px; margin-left: 0%;"></a>
+                    <a href="#hero" class="site-logo"><img src="" alt="" style="height: 100px; margin-left: 0%;"></a>
 
                 </div><!-- /.navbar-header -->
 
@@ -173,7 +71,7 @@ svg text {
                         <li class="page-scroll"><a href="#hero">Home</a></li>
                         <li class="page-scroll"><a href="#about">About</a></li>
                         <li class="page-scroll"><a href="#service">What I Do</a></li>
-                        <li class="page-scroll"><a href="#portfolio">My recent Works</a></li>
+                        <li class="page-scroll"><a href="#myrecentwork">My recent Works</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
                         
                     </ul><!-- /.navbar-nav -->
@@ -184,8 +82,8 @@ svg text {
         </nav><!-- /.primary-navigation -->
     </header><!-- /#header -->
 
-    
-    <div id="hero" class="hero">
+       <div id="hero" class="hero">
+        
         <div class="container">
             <div class="row">
 
@@ -193,7 +91,7 @@ svg text {
                     
                    
              <!--starts  animation-->
-             <div class="example" style="margin-top: 50%;margin-left: 70px;">
+             <div class="example">
                         
                 <h1 class="gradient-text">Namaste! My name is</h1>
             </div>
@@ -201,28 +99,29 @@ svg text {
             <!-- Animated SVG Text -->
             <div class="wrapper">
                 <svg>
-                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle" >
                         HARSHAD
                     </text>
                 </svg>
             </div>
         
+            <p class="job-title">
+            MCA | Junior Software Developer |<br>
+            Full Stack Developer |<br>
+            Glad to e-meet you!
+            </p>
 
       <!-- end animation-->
                    
                     <div class="page-scroll">
-
-
-
-                        <p class="job-title" style=" margin-top: 5%; margin-left: 15%;">MCA | Junior Software Developer |<br>Full Stack Developer|<br>Glad to e-meet you!</p>
                         <a href="#contact" class="btn btn-fill ">Hire me</a>
                         <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                        <a href="#service " class="btn btn-border">Explore more</a>
                     </div>
                 </div>
             
                 <div class="col-md-6 text-right">
-                    <img src="assets/img/p2.jpg" alt="alex-vidal">
+                    <img src="Assests/Nagade_Harshad.jpg" alt="alex-vidal">
                 </div>
 
             </div>
@@ -230,284 +129,205 @@ svg text {
     </div><!-- /.hero -->
 
 
-    <main id="main" class="site-main">
 
-        <section id="about" class="site-section section-about text-center">
-            <div class="container">
-                <div class="row">
-                  
-                    <div class="col-md-12 ">
-                        <h2>About</h2>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/p2.jpg" class="img-lines" alt="lines"
-                         style=" width: 350px; margin-top: 0%;height: 350px;
-                         border: 2px solid #333;border-radius: 10px 100px / 120px;   opacity: 1;">
-                    </div>
-                    <div class="col-md-8">
-                               <p>I am <b> Master Of Computer Application student at MIT-World Peace Unversity , Pune,Maharastra,India.</b>
-                             <br>Pursuing a MCA.
-                              Currently in my Last Year .<br>
-                               I have completed my 
-                               <b> Bacholer's Of Computer Science form Modern College OF Art's,Science & Commerce ,Ganeshkhind,Pune.</b>
-                        <br>
-                            Apart from academics, I like to play cricket and play badminton as I believe that having a fit and healthy body is equally important.
-                        </p>
+     
+  <section id="about">
+  <h3>About Me</h3>
+  <div class="about-content">
+    <div class="image-wrapper">
+      <img src="Assests/p2.jpg" class="animated-img">
+    </div>
+    <div class="description">
+      <p>Hi there! I'm an enthusiastic Master of Computer Applications (MCA) student at MIT World Peace University, Pune,
+      with a strong foundation in computer science earned through my BCS degree from Modern College, Ganeshkhind.</p>
 
-                        <a href="assets/Harshad_Nagade_resume.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.secton-about -->
+      <p>I'm actively seeking a<b>backend development</b>  role where I can apply my technical expertise and grow as a developer. 
+      I'm particularly enthusiastic about working with <b>Spring Boot and Hibernate</b>, 
+      and I'm eager to contribute to building scalable, efficient, and maintainable backend systems.</p>
 
+      <p>
+      I thrive on solving complex problems through clean and optimized code, and I enjoy sharpening my skills on platforms 
+      like <b><i>LeetCode</i></b> and <b><i>GeeksforGeeks</i></b>.
+      My goal is to join a forward-thinking organization where I can continuously learn 
+      emerging technologies, expand my knowledge base, and contribute meaningfully to team success—while achieving both 
+      professional and personal growth.
+      </p>
 
-        <section class="site-section section-skills">
-            <div class="container">
-                <div class="text-center">
-                    <h3>My Skills</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
+      <a href="Assests/Harshad_Resume.pdf" target="_blank" class="resume">
+      <i class="fas fa-download"></i> Download My Resume
+      </a>
+        
+        <!---<a href="https://www.linkedin.com/in/harshadnagade/" target="_blank"  class="linkedin"  title="LinkedIn">
+        <img src="Assests/linkedin.svg" alt="LinkedIn Profile">
+        </a>  
+        
+        <a href="https://github.com/HarshadNagade" target="_blank"  class="linkedin"  title="GitHub">
+        <img src="Assests/github.svg" alt="GitHub Profile">
+        </a>
 
-                        <div class="skill">
-                            <h4>Java</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->  
-                        <div class="skill">
-                            <h4>Javascript</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="60"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                            
-                            <div class="skill">
-                                <h4>C++(DSA)</h4>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
-                                </div><!-- /.progress -->
-                            </div><!-- /.skill -->
-                    </div>
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Python</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>Html/css</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="90"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-
-                    </div>
-                   
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Php</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="80"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>SQL</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                            
-                    </div>
-
-                    
-                </div>
-            </div>
-        </section><!-- /.secton-skills -->
-
-        <section id="service" class="site-section section-services overlay text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>What i do</h3>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                    </div>
-                 
-                    <div class="col-sm-6">
-                        <div class="service">
-                            <img src="assets/img/consultancy.svg" alt="Coding">
-                            <h4>Programing</h4>
-                            <!--<p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>-->
-                            <p>
-                                Solving coding problems related to DSA and participating in programming contests regularly.
-                                 I also contribute solution posts on leetcode.
-                                 Solved over 500+ coding problems across multiple platforms.
-                                  Do have a look at my coding profiles!
-                            </p>
-                            <a href="#portfolio" class="btn btn-fill " style="margin-top: 100px;">CODING</a>
-                       
-                        </div><!-- /.service -->
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="service">
-                            <img src="assets/img/front-end.svg" alt="Front End Developer">
-                            <h4>Projects</h4>
-                            <!--<p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>-->
-                            <p>I've built a few backend projects using the Java Spring framework.
-                                 This portfolio website is my first front-end project built using HTML and CSS. 
-                                 I have built very basic android applications using Java and I am also familiar with 
-                                 building smart contracts using Solidity. Looking forward to making more projects :)
-
-                            </p>
-                            
-                            <a href="#portfolio" class="btn btn-fill "style="margin-top: 50px;">PROJECTS</a>
-                        </div><!-- /.service -->
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.secton-services -->
+        <a href="https://leetcode.com/u/172003/" target="_blank"  class="linkedin"  title="LeetCode">
+        <img src="Assests/leetcode.svg" alt="LeetCode Profile">
 
 
+        </a><a href=2"https://www.geeksforgeeks.org/user/nagadeha8j9o/" target="_blank"  class="linkedin"  title="GeeksForGeeks">
+        <img src="Assests/GeeksForGeeks.svg" alt="GeeksForGeeks Profile">
+        </a>
+    ---->
 
-        <section id="portfolio" class="site-section section-portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h3>My recent Works</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                </div>
-                <div class="row">
-
-
-                    <div class="col-md-6 col-xs-6">
-                        <a href="https://leetcode.com/u/172003/" target="_blank">
-                            <img src="assets/img/leetcode.webp" class="img-res" style="border-radius: 40%; width: auto; height: 450px;" alt="">
-                           
-                    </div>
-                    <div class="col-md-6 col-xs-6">
-                        <a href="https://www.geeksforgeeks.org/user/nagadeha8j9o/" target="_blank">
-                            <img src="assets/img/gfglogo.png" class="img-res" style=" border-radius: 40%;width: auto;height: 500px;  " alt="">
-                           
-                    </div>
-
-
-                    
-                    
-                    <div class="col-md-6 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/e-garage.png" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>E-Garage</h4>
-                               <!--- <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>--->
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-
-                    <div class="col-md-6 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/netspeed.png" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Network Speed Testing</h4>
-                                
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-
-                    <div class="col-md-6 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/onlinenotes.webp" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Online Notes Sharing </h4>
-                               <!--- <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>--->
-                               <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-6 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/busbooking.avif" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Bus Tickets Booking</h4>
-                               <!--- <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>--->
-                               <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    </div>
-                </div>
-            </section><!-- /.secton-portfolio -->
-            <section id="contact" class="site-section section-form text-center">
-                <div class="container">
+    </div>
+   
+  </div>
+</section>
+<div class="myskills">
+    <h3>My Skills</h3>
+    <div class="carousel">
+    <div class="group1">
+    <div class="card"><img src="Assests/c.svg" alt="C Language"></div>
+    <div class="card"><img src="Assests/c++.svg" alt="C++ Language"></div>
+    <div class="card"><img src="Assests/html.svg" alt="HTML"></div>
+    <div class="card"><img src="Assests/css.svg" alt="CSS"></div>
+    <div class="card"><img src="Assests/js.png" alt="JS"></div>
+    <div class="card"><img src="Assests/java.svg" alt="Java"></div>
+    <div class="card"><img src="Assests/python.svg" alt="Java"></div>
     
-                    <h3>Contact Me</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                    <form>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
-                            </div>
-                            <div class="col-sm-6">
-                                <input type="email" name="email" class="form-control" placeholder="Email" required>   
-                            </div>
-                            <div class="col-sm-12">
-                                <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
-                            </div>
-                        </div>
-                        <button href="#" class="btn btn-border" type="submit">Send <span class="glyphicon glyphicon-send"></span></button>
-                    </form>
-                </div>
-            </section><!-- /.section-form -->
-    </main>
-    <div id="portfolioItem1" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-              <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
-            </div>
-            <div class="modal-body">
-              <h4 class="modal-title">Project title</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-            </div>
-            <div class="modal-footer">
-              <a href="#" class="btn btn-fill">Visit Page</a>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
-      <div id="portfolioItem2" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-              <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
-            </div>
-            <div class="modal-body">
-              <h4 class="modal-title">Project title</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-            </div>
-            <div class="modal-footer">
-              <a href="#" class="btn btn-fill">Visit Page</a>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
+ <!-- Repeat cards for smooth infinite scroll effect -->
+  <div class="card"><img src="Assests/c.svg" alt="C Language"></div>
+    <div class="card"><img src="Assests/c++.svg" alt="C++ Language"></div>
+    <div class="card"><img src="Assests/html.svg" alt="HTML"></div>
+    <div class="card"><img src="Assests/css.svg" alt="CSS"></div>
+    <div class="card"><img src="Assests/js.png" alt="JS"></div>
+    <div class="card"><img src="Assests/java.svg" alt="Java"></div>
+    <div class="card"><img src="Assests/python.svg" alt="Java"></div>
+
+</div>
+
+ </div>
+ <div class="carousel2">
+    <div class="group2">
+    <div class="card2"><img src="Assests/mysql.svg" alt="SQL"></div>
+    <div class="card2"><img src="Assests/mongodb.svg" alt="MONGODB"></div>
+    <div class="card2"><img src="Assests/react.svg" alt="React"></div>
+    <div class="card2"><img src="Assests/nodejs.svg" alt="Node"></div>
+    <div class="card2"><img src="Assests/spring boot.jpg" alt="Spring"></div>
+
+     <!-- Repeat cards for smooth infinite scroll effect -->
+    <div class="card2"><img src="Assests/mysql.svg" alt="SQL"></div>
+    <div class="card2"><img src="Assests/mongodb.svg" alt="MONGODB"></div>
+    <div class="card2"><img src="Assests/react.svg" alt="React"></div>
+    <div class="card2"><img src="Assests/nodejs.svg" alt="Node"></div>
+    <div class="card2"><img src="Assests/spring boot.jpg" alt="Spring"></div>
+
+
+    </div>
+ </div>
+</div>
 
 
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/skrollr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/script.js"></script>
+<section id="service">
+  <h3>WHAT I DO</h3>
+
+  <div class="service-wrapper">
+    <div class="container1">
+      <h2>Programming</h2>
+      <p>
+        Solving coding problems related to DSA and participating in contests regularly. <br>
+        I also contribute solution posts on LeetCode and have solved over 500+ problems across platforms. <br>
+        Do have a look at my coding profiles!
+      </p>
+      <a href="#myrecentwork" class="service_btn"><span>CODING</span></a>
+    </div>
+
+    <div class="container2">
+      <h2>Projects</h2>
+      <p>
+        I've built backend projects using PHP & Java Spring. <br>
+        This portfolio site is my first front-end project using HTML, CSS, and JS. <br>
+        I’ve also built Android apps in Java and simple smart contracts in Solidity. <br>
+        Looking forward to making more projects :)
+      </p>
+      <a href="#myrecentwork" class="service_btn"><span>PROJECTS</span></a>
+    </div>
+  </div>
+</section>
+
+  <section id="myrecentwork">
+<h3>MY RECENT WORK</h3>
+<div class="image-grid">
+  <!-- Replace `img1.jpg` with your actual image URLs or paths -->
+
+        <div class="image-item">
+        <a href="https://leetcode.com/u/172003/" target="_blank"><img src="Assests/leetcode.svg" alt="LeetCode">
+        <p>LeetCode</p></a></div>
+
+      <div class="image-item">
+       <a href="https://www.geeksforgeeks.org/user/nagadeha8j9o/" target="_blank"><img src="Assests/GeeksForGeeks.svg" alt="GeeksForGeeks">
+       <p>GeeksForGeeks</p></a>
+      </div>
+
+       <div class="image-item">
+       <a href="https://github.com/HarshadNagade" target="_blank"><img src="Assests/github.svg" alt="GitHub">
+       <p>GitHub</p></a>
+      </div>
+
+      
+      
+
+        <div class="image-item">
+        <a href="https://gilded-crisp-a416e3.netlify.app/" target="_blank"><img src="Assests/netspeed.jpg" alt="Net Speed Test">
+        <p>NetWork Speed Test</p></a>
+        </div>
+
+         <div class="image-item">
+        <a href="https://harshadnagade.github.io/Periodic-Table/" target="_blank"><img src="Assests/periodic.jpg" alt="Periodic-Table">
+        <p>Peroid Table </p></a>
+        </div>
+
+        <div class="image-item">
+        <a href="#" target="_blank"><img src="Assests/logo3.jpeg" alt="E-Garage">
+        <p>E-Garage</p></a>
+        </div>
+
+        <div class="image-item">
+      <a href="#" target="_blank"><img src="Assests/FoodFronze.jpeg" alt="FoodFronze" >
+      <p>Food Fronzy </p></a>
+      </div>
+
+</div>  
+  </section>
+
+
+
+  <section id="contact">
+  <h3>Contact Me</h3>
+  <p>Feel free to reach out via email or connect with me on social media.</p>
+
+  <div class="contact-icons">
+    <a href="mailto:hashadnagde@gmail.com" target="_blank" title="Email">
+      <img src="Assests/gmail.svg" alt="G-Mail">
+    </a>
+
+    <a href="https://www.linkedin.com/in/harshadnagade/" target="_blank" title="LinkedIn">
+    <img src="Assests/linkedin.svg" alt="WhatsApp">
+    </a>
+
+     <a href="https://web.whatsapp.com/send?phone=9199216" target="_blank" title="WhatsApp">
+      <img src="Assests/whatsapplogo.png" alt="WhatsApp">
+    </a>
+
+     <a href="https://www.instagram.com/h_d_nagade/" target="_blank" title="instagram">
+      <img src="Assests/instalogo.jpg" alt="WhatsApp">
+    </a>
+
+    <a href="tel:+919921648955" title="Call">
+      <img src="Assests/cslllogo.png" alt="Phone">
+        <span>( +91 99216 48955)</span>
+    </a>
+
+    </div>
+
   
-</body>
+  </div>
+</section>
+
 </html>
